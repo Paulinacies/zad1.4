@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.form-field {
+	width:100%;
+	align-items:center;
+	background-color:#efefef;
+	position: relative;
+	padding: 20px;
+	}
+.centered{
+ 	margin:0;
+	}
+	
+
+#button {
+     margin-top: 12px;
+     margin-right: 12px;
+     position:absolute;
+     top:0;
+     right:0;
+ }
+ 
+.button {
+    border: 1px solid #ED2C67;
+	border-radius:3px;
+}
+
+.button:hover {
+	background-color: #bfbfbf;
+}
+
+.invalid {
+    border: 1px #ff0000 solid;
+}
